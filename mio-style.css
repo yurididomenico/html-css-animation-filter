@@ -20,11 +20,20 @@
     transition: all 1s;
 }
 
+/* ____ 0.7 Secondi ____ */
+.ex-5-square
+{
+    transition: all 700ms;
+}
+
 /* ____ 0.4 Secondi ____ */
-.ex-3-square
+.ex-3-square,
+.ex-5-square
 {
     transition: all 400ms;
 }
+
+
 
 /* ________ Effetti ________________________________________________ */
 .ex-1-square:hover
@@ -46,3 +55,33 @@
 {
     opacity: 0;
 }
+
+.ex-5-square:hover
+{
+    transform: scale(1.7);
+}
+
+.ex-5-square:active
+{
+    transform: scale(0.6);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ________ Fine ________________________________________________ */
