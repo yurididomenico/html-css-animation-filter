@@ -9,7 +9,8 @@
 
 /* ____ 2 Secondi ____ */
 .ex-1-square,
-.ex-2-square
+.ex-2-square,
+.ex-7-img
 {
     transition: all 2s;
 }
@@ -71,6 +72,10 @@
     filter: grayscale(100%);
 }
 
+.ex-7-img:hover
+{
+    filter: sepia(100%) saturate(0.5);
+}
 
 
 
