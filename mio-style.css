@@ -10,7 +10,8 @@
 /* ____ 2 Secondi ____ */
 .ex-1-square,
 .ex-2-square,
-.ex-7-img
+.ex-7-img,
+.ex-8-img
 {
     transition: all 2s;
 }
@@ -75,6 +76,12 @@
 .ex-7-img:hover
 {
     filter: sepia(100%) saturate(0.5);
+}
+
+.ex-8-img:hover
+{
+    filter: sepia(50%) saturate(0.5);
+    border-radius: 20px;
 }
 
 
