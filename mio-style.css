@@ -4,27 +4,34 @@
 3- hover cambia colore di sfondo
 4- temporizzo l hover realizzato prima al punto 3
 */
+
+/* ________ Transizioni ________________________________________________ */
+
+/* ____ 2 Secondi ____ */
 .ex-1-square,
 .ex-2-square
 {
     transition: all 2s;
 }
 
+/* ____ 1 Secondo ____ */
+.ex-4-square
+{
+    transition: all 1s;
+}
 
+/* ____ 0.4 Secondi ____ */
 .ex-3-square
 {
     transition: all 400ms;
 }
 
+/* ________ Effetti ________________________________________________ */
 .ex-1-square:hover
 {
     background-color: red;
 }
 
-.ex-2-square
-{
-    
-}
 .ex-2-square:active
 {
     width: 100%;
@@ -33,4 +40,9 @@
 .ex-3-square:hover
 {
     border-radius: 50%;
+}
+
+.ex-4-square:hover
+{
+    opacity: 0;
 }
