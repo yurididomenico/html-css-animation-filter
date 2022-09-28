@@ -113,7 +113,168 @@
     75%{rotate: 270deg}
     100%{rotate: 0}
 }
+
+.ex-12-button:hover .ex-12-top-white
+{
+    animation: effetto-slide 2s linear;
+}
+
+.ex-12-button:hover .ex-12-bottom-white
+{
+    animation: effetto-slide-reverse 2s linear;
+}
+
+@keyframes effetto-slide
+{
+    0%
+    {
+        left: 10%;
+    }
+
+    50%
+    {
+        left: 70%;
+    }
+
+    100%
+    {
+        left: 10%;
+    }
+}
+
+@keyframes effetto-slide-reverse
+{
+    0%
+    {
+        right: 20%;  
+    }
+
+    50%
+    {
+        right: 70%;
+    }
+
+    100%
+    {
+        right: 20%;  
+    }
+}
+
+
+
+
+.ex-13-button:hover .ex-13-top-white
+{
+    animation: effetto-slide-giro 2s linear;
+}
+
+
+@keyframes effetto-slide-giro
+{
+    0%
+    {
+        transform: translateY(-50%);
+        top: 0;
+        left: 10%;
+    }
+
+    20%
+    {
+        transform: translateY(-50%);
+        top: 0;
+        left: 90%;
+    }
+
+    35%
+    {
+        transform: translateY(-50%);
+        top: 100%;
+        left: 90%;
+    }
+
+    70%
+    {
+        transform: translate(-50%, -50%);
+        top: 100%;
+        left: 0;
+    }
+
+    85%
+    {
+        transform: translate(-50%, -50%);
+        top: 0;
+        left: 0;
+    }
+
+    100%
+    {
+        top: 0;
+        left: 10%;
+        transform: translateY(-50%);
+    }
+
+}
+
+
+
+
+.ex-13-button:hover .ex-13-bottom-white
+{
+    animation: effetto-slide-giro-reverse 2s linear;
+}
+
+
+@keyframes effetto-slide-giro-reverse
+{
+    0%
+    {
+        bottom: 0;
+        right: 20%;
+        transform: translateY(50%);
+    }
+
+    20%
+    {
+        bottom: 0;
+        right: 90%;
+        transform: translateY(50%);
+    }
+
+    35%
+    {
+        bottom: 100%;
+        right: 90%;
+        transform: translateY(50%);
+    }
+
+    70%
+    {
+        bottom: 100%;
+        right: 0;
+        transform: translate(50%, 50%);
+    }
+
+    85%
+    {
+        bottom: 0;
+        right: 0;
+        transform: translate(50%, 50%);
+    }
+
+    100%
+    {
+        bottom: 0;
+        right: 20%;
+        transform: translateY(50%);
+    }
+
     
+
+
+}
+
+
+
 
 
 
