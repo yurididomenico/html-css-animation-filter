@@ -11,7 +11,8 @@
 .ex-1-square,
 .ex-2-square,
 .ex-7-img,
-.ex-8-img
+.ex-8-img,
+.ex-9-img
 {
     transition: all 2s;
 }
@@ -82,6 +83,13 @@
 {
     filter: sepia(50%) saturate(0.5);
     border-radius: 20px;
+}
+
+.ex-9-img:hover
+{
+    filter: sepia(80%) saturate(0.5);
+    border-radius: 20px;
+    transform: scale(1.5);
 }
 
 
